@@ -1,0 +1,28 @@
+package JavaProgram;
+
+public class ReverseNumber {
+	
+	public void integerReverse() {
+		
+	}		
+	int num = 12345;
+	int rev = 0;
+	
+
+	
+}
+
+}
+
+
+	public static void main(String[] args) {
+		
+	
+			
+			
+		
+		
+
+	
+
+}

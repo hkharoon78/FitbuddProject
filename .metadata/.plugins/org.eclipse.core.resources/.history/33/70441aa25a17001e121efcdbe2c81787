@@ -1,0 +1,22 @@
+package JavaProgram;
+
+public class GivenNumberMonthDay {
+
+	public static void main(String[] args) {
+		
+		int month = 5;
+		
+		if(month==1) {
+			System.out.println("31");
+			
+			
+		}
+		if(month==2) {
+			System.out.println("28/29");
+			
+			
+		}
+
+	}
+
+}

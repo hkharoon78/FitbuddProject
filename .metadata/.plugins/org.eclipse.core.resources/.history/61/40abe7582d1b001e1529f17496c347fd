@@ -1,0 +1,23 @@
+package JavaProgram;
+
+public class ArrayProg {
+
+	public static void main(String[] args) {
+		
+		int age []= {10, 20, 30, 50, 60};
+		
+		//System.out.println(age[4]);
+		
+		for(int age1:age) {
+			System.out.println(age1);
+			
+			
+		}
+	
+			
+			
+		}
+
+	}
+
+

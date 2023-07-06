@@ -1,0 +1,19 @@
+package JavaProgram;
+
+public class FinalQ {
+	
+     int num = 40;
+     void inNum() {
+    	
+    	num = 400;
+    	
+    }
+
+	public static void main(String[] args) {
+		
+		FinalQ fq = new FinalQ();
+		fq.inNum();
+
+	}
+
+}

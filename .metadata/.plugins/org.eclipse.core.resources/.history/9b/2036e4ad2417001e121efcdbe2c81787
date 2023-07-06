@@ -1,0 +1,38 @@
+package JavaProgram;
+
+public class ReverseInterger {
+
+	public void revInt() {
+		
+		int num = 123456;
+		int rev = 0;
+		
+		while(num!=0) {
+			
+			num = num*10+rev%10;
+			rev = rev/10;
+			
+			
+		}
+		
+		System.out.println(rev);
+		
+		
+		
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		ReverseInterger rt = new ReverseInterger();
+		
+		rt.revInt();
+		
+		
+		
+
+	}
+
+}

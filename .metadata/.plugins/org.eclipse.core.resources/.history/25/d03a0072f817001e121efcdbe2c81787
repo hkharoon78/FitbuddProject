@@ -1,0 +1,16 @@
+package JavaProgram;
+
+public class FinalQ {
+	
+    final int num = 40;
+     void inNum() {
+    	
+    	num = 400;
+    	
+    }
+
+	public static void main(String[] args) {
+
+	}
+
+}
