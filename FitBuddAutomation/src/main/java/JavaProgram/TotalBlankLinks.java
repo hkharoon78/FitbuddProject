@@ -36,25 +36,22 @@ public class TotalBlankLinks {
 		int count = ele.size();
 		System.out.println("Totla links count : " + count);
 		
+		
+		  for(int i = 0; i<count; i++) {
+		  
+		  String linkTitle = ele.get(i).getText(); if(linkTitle.length()>0)
+		  
+		  System.out.println(i + ":" + linkTitle);
+		  
+		  }
+		 
 		/*
-		 * for(int i = 0; i<count; i++) {
+		 * int count1 = 0; for(WebElement e : ele ) {
 		 * 
-		 * String linkTitle = ele.get(i).getText(); if(linkTitle.length()>0)
+		 * String s1 = e.getText(); if (s1.length()>0) {
 		 * 
-		 * System.out.println(i + ":" + linkTitle);
-		 * 
-		 * }
+		 * } System.out.println(count1 + ":" + s1); } count1++;
 		 */
-		int count1 = 0;
-		for(WebElement e : ele ) {
-			
-			String s1 = e.getText();
-			if (s1.length()>0) {
-				
-			}
-			System.out.println(count1 + ":" + s1);
-		}
-		count1++;
 		
 		Thread.sleep(4000);
 		
