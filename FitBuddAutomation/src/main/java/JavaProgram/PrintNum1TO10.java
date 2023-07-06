@@ -8,7 +8,7 @@ public class PrintNum1TO10 {
 		 if(i%2==0)
 			
 			System.out.println(i);
-			//This will print only even numbers
+			//This will print even numbers
 			
 			
 		}
